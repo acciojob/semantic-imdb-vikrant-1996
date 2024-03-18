@@ -1,41 +1,60 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fantastic Movie</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, nav, section, aside, footer {
+            padding: 20px;
+        }
+        nav a {
+            margin-right: 20px;
+            text-decoration: none;
+            color: blue;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+    </style>
 </head>
-
 <body>
-	
-    <header> Deadpool </header>
-	<nav>
-		<a href="https://www.imdb.com/name/nm0005351/?ref_=tt_cl_t_1" id="nav-actor">Actor</a>
-		<a href="https://www.imdb.com/title/tt5463162/quotes/?item=qt4979891" id="nav-quote">Quote</a>
-	</nav>
-	<summary> Foul-mouthed mutant mercenary Wade Wilson (a.k.a. Deadpool) assembles a team of fellow mutant rogues to protect a young boy with supernatural abilities from the brutal, time-traveling cyborg Cable.</summary>
-	
-	<section id="actor" >
-		Acotr: Ryan Reynolds
-		Ryan Rodney Reynolds was born on October 23, 1976 in Vancouver, British Columbia, Canada, the youngest of four children. His father, James Chester Reynolds, was a food wholesaler, and his mother, Tamara Lee "Tammy" (Stewart), worked as a retail-store saleswoman. He has Irish and Scottish ancestry.
-	</section>
-	
-	<section id="quote" >
-		Listen to the pain. It's both history teacher and fortune teller. Pain teaches us who we are, Wade. Sometimes it's so bad we feel like we're dying, but we can't really live until we die a little, can we?
-	</section>
-
-
-
-
-	
-	<aside>
-		"IMDB Rating: Who the fucks care! But it realease after Avengers!
-		Release date: Before Corona"
-	</aside>
-	<footer> Produce by: Only Marvel can do this kind of epid shitt
-	</footer>
-	
-	<script type="text/javascript" src="./script.js">
-</script>
-
+    <header>
+        <h1>Fantastic Movie</h1>
+    </header>
+    <nav>
+        <a href="#nav-actor">Actors</a>
+        <a href="#nav-quote">Quotes</a>
+    </nav>
+    <main>
+        <section id="summary">
+            <h2>Summary</h2>
+            <p>A brief summary of the plot goes here...</p>
+        </section>
+        <section id="actor">
+            <h2>Actors</h2>
+            <p>Details about the actors go here...</p>
+        </section>
+        <section id="quote">
+            <h2>Quotes</h2>
+            <p>Your favorite quote from the movie goes here...</p>
+        </section>
+    </main>
+    <aside>
+        <h2>IMDb Rating & Release Date</h2>
+        <p>IMDb Rating: 9.0/10</p>
+        <p>Release Date: January 1, 2020</p>
+    </aside>
+    <footer>
+        <p>Produced by: Director Name</p>
+    </footer>
 </body>
+</html>
